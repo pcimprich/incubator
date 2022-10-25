@@ -8,6 +8,7 @@ const animals2 = [
   { name: 'elephant', continent: ['Africa', 'Asia'] },
   { name: 'kangaroo', continent: ['Australia'] },
   { name: 'bear', continent: ['America', 'Europe', 'Asia'] },
+  { name: 'gorilla', continent: ['Africa'] },
   { name: 'fox', continent: ['America', 'Europe', 'Asia', 'Africa'] }
 ];
 
