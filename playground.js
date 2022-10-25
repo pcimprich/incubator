@@ -10,3 +10,7 @@ const animals2 = [
   { name: 'bear', continent: ['America', 'Europe', 'Asia'] },
   { name: 'fox', continent: ['America', 'Europe', 'Asia', 'Africa'] }
 ];
+
+animals.forEach((animal) => {
+  console.log(animal);
+});
