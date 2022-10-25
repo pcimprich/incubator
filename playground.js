@@ -1,4 +1,4 @@
-const animals = ['lion', 'tiger', 'zebra', 'giraffe', 'elephant', 'kangaroo', 'bear', 'fox'];
+const animals = ['lion', 'tiger', 'zebra', 'giraffe', 'elephant', 'kangaroo', 'bear', 'gorilla', 'fox'];
 
 const animals2 = [
   { name: 'lion', continent: ['Africa', 'Asia'] },
