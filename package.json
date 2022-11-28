@@ -1,0 +1,25 @@
+{
+  "name": "incubator",
+  "version": "1.0.0",
+  "description": "Dev Incubator playground",
+  "main": "playground.js",
+  "scripts": {
+    "test": "node playground.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcimprich/incubator.git"
+  },
+  "keywords": [
+    "training"
+  ],
+  "author": "Petr Cimprich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcimprich/incubator/issues"
+  },
+  "homepage": "https://github.com/pcimprich/incubator#readme"
+}
