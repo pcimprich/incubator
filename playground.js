@@ -1,3 +1,6 @@
+import _Array from 'lodash/array.js';
+import _Object from 'lodash/object.js';
+
 const animals = ['lion', 'tiger', 'zebra', 'giraffe', 'elephant', 'kangaroo', 'bear', 'gorilla', 'fox'];
 
 const animals2 = [
@@ -110,6 +113,11 @@ const bestPractices = {
   score: 0.98
 };
 
-animals.forEach((animal) => {
-  console.log(animal);
-});
+for (const metric in bestPractices.metrics) {
+  console.log(metric);
+}
+
+// const metrics = Object.keys(bestPractices.metrics);
+// metrics.forEach(metric => console.log(metric));
+
+// console.log(_Object.get(bestPractices, 'metrics.size_of_images.name'));

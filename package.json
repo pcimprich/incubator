@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Dev Incubator playground",
   "main": "playground.js",
+  "type": "module",
   "scripts": {
     "test": "node playground.js"
   },
